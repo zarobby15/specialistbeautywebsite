@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zarobby — Web Designer untuk Beauty Brand</title>
+  <meta name="description" content="Website premium untuk aesthetic clinic, salon, beauty business, dan beauty personal brand. Tampil profesional, dipercaya, dan eksklusif." />
+  <meta name="keywords" content="web designer beauty, website klinik kecantikan, website salon, website aesthetic clinic, landing page beauty indonesia" />
+
+  <meta property="og:title" content="Zarobby — Web Designer untuk Beauty Brand" />
+  <meta property="og:description" content="Website premium untuk clinic, salon & beauty business Indonesia. Tampil profesional, dipercaya, dan eksklusif." />
+  <meta property="og:image" content="https://i.ibb.co.com/NdD80NvD/Screenshot-2026-04-13-150209.png" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://zarobby15.github.io/" />
+  <meta property="og:site_name" content="Zarobby" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Zarobby — Web Designer for Beauty Brands" />
+  <meta name="twitter:description" content="Website premium untuk clinic, salon & beauty business." />
+  <meta name="twitter:image" content="https://i.ibb.co.com/NdD80NvD/Screenshot-2026-04-13-150209.png" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ── NAVBAR ── -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="#" class="nav-logo">Zarobby</a>
+      <div class="nav-links">
+        <a href="#about">Tentang</a>
+        <a href="#services">Paket</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="https://wa.me/6285785017347?text=Halo%20Zarobby%2C%20saya%20ingin%20konsultasi%20gratis." target="_blank" class="nav-cta">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          Konsultasi Gratis
+        </a>
+      </div>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="#about" class="mob-link">Tentang</a>
+      <a href="#services" class="mob-link">Paket Harga</a>
+      <a href="#portfolio" class="mob-link">Portfolio</a>
+      <a href="https://wa.me/6285785017347?text=Halo%20Zarobby%2C%20saya%20ingin%20konsultasi%20gratis." target="_blank" class="mob-link mob-cta">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        Konsultasi Gratis
+      </a>
+    </div>
+  </nav>
+
+  <!-- ── HERO ── -->
+  <section class="hero" id="hero">
+    <div class="hero-bg-lines"></div>
+    <div class="hero-container">
+      <div class="hero-left reveal">
+        <p class="hero-eyebrow">Web Designer</p>
+        <h1 class="hero-headline">
+          Specialist<br />
+          <em>Beauty Brand</em><br />
+          Website
+        </h1>
+        <p class="hero-sub">Saya membantu beauty business tampil profesional dan terpercaya dengan website modern yang dirancang untuk branding dan mendatangkan client baru.</p>
+        <div class="hero-actions">
+          <a href="https://wa.me/6285785017347?text=Halo%20Zarobby%2C%20saya%20ingin%20konsultasi%20gratis%20website%20untuk%20beauty%20brand%20saya." target="_blank" class="btn-wa">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            GRATIS Konsultasi
+          </a>
+          <a href="#portfolio" class="btn-ghost">Lihat Portfolio</a>
+        </div>
+        <div class="trust-badges">
+          <span>✓ Tampilan Premium</span>
+          <span>✓ Ramah HP</span>
+          <span>✓ Pengerjaan Cepat</span>
+          <span>✓ Revisi Termasuk</span>
+        </div>
+      </div>
+      <div class="hero-right reveal" style="animation-delay:.2s">
+        <div class="hero-photo-wrap">
+          <img src="https://i.ibb.co.com/NdD80NvD/Screenshot-2026-04-13-150209.png" alt="Zarobby – Web Designer untuk Beauty Brand" class="hero-photo" loading="eager" />
+          <div class="hero-photo-ring"></div>
+          <div class="hero-photo-ring-2"></div>
+          <div class="hero-tag">
+            <span class="tag-dot"></span>
+            Menerima project baru
+          </div>
+          <div class="hero-tag-2">
+            <span class="hero-tag-icon">✦</span>
+            Beauty Niche Specialist
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── STATS (minimalis) ── -->
+  <section class="stats">
+    <div class="stats-inner">
+      <div class="stat-item reveal">
+        <span class="stat-num">10+</span>
+        <span class="stat-label">Project Beauty</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item reveal" style="animation-delay:.1s">
+        <span class="stat-num">100%</span>
+        <span class="stat-label">Mobile Ready</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item reveal" style="animation-delay:.2s">
+        <span class="stat-num stat-free">GRATIS</span>
+        <span class="stat-label">Konsultasi</span>
+    
+    </div>
+  </section>
+
+  <!-- ── PORTFOLIO ── -->
+  <section class="portfolio" id="portfolio">
+    <div class="portfolio-inner">
+      <p class="section-eyebrow center">Portfolio</p>
+      <h2 class="section-title center">Proyek Terpilih</h2>
+
+      <!-- KATEGORI 1: Klinik Kecantikan -->
+      <div class="port-category reveal">
+        <div class="port-cat-label">
+          <span class="port-cat-icon">✦</span>
+          Klinik Kecantikan
+        </div>
+        <div class="portfolio-grid">
+
+          <div class="portfolio-card reveal">
+            <div class="port-preview">
+              <iframe src="https://zarobby15.github.io/Zahra-Beauty/" title="Zahra Beauty" loading="lazy" scrolling="no" tabindex="-1"></iframe>
+              <div class="port-overlay">
+                <a href="https://zarobby15.github.io/Zahra-Beauty/" target="_blank" class="port-visit">Lihat Website ↗</a>
+              </div>
+            </div>
+            <div class="port-info">
+              <span class="port-cat-tag">Klinik Kecantikan</span>
+              <h3 class="port-name">Zahra Beauty</h3>
+              <p class="port-desc">Website beauty clinic dengan visual hangat, elegan, dan conversion-focused.</p>
+            </div>
+          </div>
+
+          <div class="portfolio-card reveal" style="animation-delay:.12s">
+            <div class="port-preview">
+              <iframe src="https://klinikpratamamervederma.zarobby15.workers.dev/" title="Klinik Pratama Merve Derma" loading="lazy" scrolling="no" tabindex="-1"></iframe>
+              <div class="port-overlay">
+                <a href="https://klinikpratamamervederma.zarobby15.workers.dev/" target="_blank" class="port-visit">Lihat Website ↗</a>
+              </div>
+            </div>
+            <div class="port-info">
+              <span class="port-cat-tag">Klinik Kecantikan</span>
+              <h3 class="port-name">Klinik Pratama Merve Derma</h3>
+              <p class="port-desc">Tampilan profesional dan medis untuk klinik dermatologi yang membangun kepercayaan pasien.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- KATEGORI 2: Hair Studio -->
+      <div class="port-category reveal">
+        <div class="port-cat-label">
+          <span class="port-cat-icon">✦</span>
+          Hair Studio
+        </div>
+        <div class="portfolio-grid">
+
+          <div class="portfolio-card reveal">
+            <div class="port-preview">
+              <iframe src="https://autumn-feather-69ea.zarobby15.workers.dev/#" title="Éclat Hair Studio" loading="lazy" scrolling="no" tabindex="-1"></iframe>
+              <div class="port-overlay">
+                <a href="https://autumn-feather-69ea.zarobby15.workers.dev/#" target="_blank" class="port-visit">Lihat Website ↗</a>
+              </div>
+            </div>
+            <div class="port-info">
+              <span class="port-cat-tag">Hair Studio</span>
+              <h3 class="port-name">Éclat Hair Studio</h3>
+              <p class="port-desc">Website premium dengan visual storytelling untuk hair studio yang ingin tampil berbeda.</p>
+            </div>
+          </div>
+
+          <div class="portfolio-card reveal" style="animation-delay:.12s">
+            <div class="port-preview">
+              <iframe src="https://zarobby15.github.io/nhghairstudio/" title="NHG Hair Studio" loading="lazy" scrolling="no" tabindex="-1"></iframe>
+              <div class="port-overlay">
+                <a href="https://zarobby15.github.io/nhghairstudio/" target="_blank" class="port-visit">Lihat Website ↗</a>
+              </div>
+            </div>
+            <div class="port-info">
+              <span class="port-cat-tag">Hair Studio</span>
+              <h3 class="port-name">NHG Hair Studio</h3>
+              <p class="port-desc">Landing page elegan untuk hair studio dengan fokus pada brand trust dan booking conversion.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- KATEGORI 3: MUA -->
+      <div class="port-category reveal">
+        <div class="port-cat-label">
+          <span class="port-cat-icon">✦</span>
+          Makeup Artist
+        </div>
+        <div class="portfolio-grid portfolio-grid--single">
+
+          <div class="portfolio-card reveal">
+            <div class="port-preview">
+              <iframe src="https://bellabeauty.zarobby15.workers.dev/" title="Bella Beauty" loading="lazy" scrolling="no" tabindex="-1"></iframe>
+              <div class="port-overlay">
+                <a href="https://bellabeauty.zarobby15.workers.dev/" target="_blank" class="port-visit">Lihat Website ↗</a>
+              </div>
+            </div>
+            <div class="port-info">
+              <span class="port-cat-tag">Makeup Artist</span>
+              <h3 class="port-name">Bella Beauty</h3>
+              <p class="port-desc">Landing page elegan untuk makeup artist dengan fokus pada portfolio dan booking conversion.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+     <!-- ── TESTIMONIALS ── -->
+  <section class="testimonials">
+    <div class="testi-inner">
+      <p class="section-eyebrow center">Testimoni</p>
+      <h2 class="section-title center">Dipercaya Beauty Business Indonesia</h2>
+      <div class="testi-grid">
+        <div class="testi-card reveal">
+          <div class="testi-stars">★★★★★</div>
+          <p class="testi-quote">"Website dari Zarobby benar-benar mengubah cara client baru menemukan klinik kami. Dalam 2 minggu pertama, inquiry WhatsApp naik signifikan."</p>
+          <div class="testi-author">
+            <div class="testi-avatar">A</div>
+            <div>
+              <p class="testi-name">dr. Amelia Putri</p>
+              <p class="testi-role">Owner · Aesthetic Clinic</p>
+            </div>
+          </div>
+        </div>
+        <div class="testi-card reveal" style="animation-delay:.1s">
+          <div class="testi-stars">★★★★★</div>
+          <p class="testi-quote">"Hasilnya jauh melebihi ekspektasi. Tampilan website saya sekarang benar-benar merepresentasikan kualitas layanan salon kami."</p>
+          <div class="testi-author">
+            <div class="testi-avatar">S</div>
+            <div>
+              <p class="testi-name">Sari Dewanti</p>
+              <p class="testi-role">Owner · Salon & Hair Studio</p>
+            </div>
+          </div>
+        </div>
+        <div class="testi-card reveal" style="animation-delay:.2s">
+          <div class="testi-stars">★★★★★</div>
+          <p class="testi-quote">"Proses kerjanya profesional dan komunikatif. Zarobby benar-benar mengerti kebutuhan beauty brand seperti saya."</p>
+          <div class="testi-author">
+            <div class="testi-avatar">R</div>
+            <div>
+              <p class="testi-name">Salsabilla</p>
+              <p class="testi-role">Makeup Artist · Personal Brand</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+    
+  <!-- ── PROCESS (minimalis) ── -->
+  <section class="process">
+    <div class="process-inner">
+      <p class="section-eyebrow center">Cara Kerja</p>
+      <h2 class="section-title center">Dari Ide Hingga Live</h2>
+      <div class="process-steps-mini reveal">
+        <div class="process-step-mini">
+          <div class="step-num-mini">01</div>
+          <div class="step-content-mini">
+            <strong>Diskusi</strong>
+            <span>Ngobrol tentang brand, visi, dan target client Anda.</span>
+          </div>
+        </div>
+        <div class="step-arrow">→</div>
+        <div class="process-step-mini">
+          <div class="step-num-mini">02</div>
+          <div class="step-content-mini">
+            <strong>Desain</strong>
+            <span>Website dirancang sesuai estetika dan keunggulan brand Anda.</span>
+          </div>
+        </div>
+        <div class="step-arrow">→</div>
+        <div class="process-step-mini">
+          <div class="step-num-mini">03</div>
+          <div class="step-content-mini">
+            <strong>Revisi</strong>
+            <span>Review bersama hingga setiap detail sesuai ekspektasi.</span>
+          </div>
+        </div>
+        <div class="step-arrow">→</div>
+        <div class="process-step-mini">
+          <div class="step-num-mini">04</div>
+          <div class="step-content-mini">
+            <strong>Live!</strong>
+            <span>Website siap menarik client baru. Saya tetap standby setelahnya.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <!-- ── SERVICES / PRICING ── -->
+  <section class="services" id="services">
+    <div class="services-inner">
+      <p class="section-eyebrow center">Harga</p>
+      <h2 class="section-title center">Paket Signature</h2>
+      <p class="section-sub center">Pilih paket yang paling sesuai untuk beauty brand Anda</p>
+      <div class="pricing-grid">
+
+        <div class="price-card reveal">
+          <p class="price-tier">Signature Lite</p>
+          <div class="price-amount">Rp<span>449</span>K</div>
+          <p class="price-for">Untuk: MUA · Lash Artist · Nail Artist</p>
+          <ul class="price-features">
+            <li>Website 1 halaman</li>
+            <li>Fokus 1 layanan utama</li>
+            <li>Tombol WhatsApp langsung</li>
+            <li>Tampilan sempurna di HP</li>
+            <li>Mini galeri foto</li>
+          </ul>
+          <a href="https://wa.me/6285785017347?text=Halo%2C%20saya%20tertarik%20paket%20Signature%20Lite." target="_blank" class="btn-price-wa">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            Chat di WhatsApp
+          </a>
+        </div>
+
+        <div class="price-card featured reveal" style="animation-delay:.1s">
+          <div class="price-badge">PALING DIMINATI</div>
+          <p class="price-tier">Signature Launch</p>
+          <div class="price-amount">Rp<span>699</span>K</div>
+          <p class="price-for">Landing page premium untuk semua beauty business</p>
+          <ul class="price-features">
+            <li>Landing page premium</li>
+            <li>Multi-section lengkap</li>
+            <li>Showcase layanan</li>
+            <li>Section tentang brand</li>
+            <li>Section testimoni</li>
+            <li>CTA booking yang optimal</li>
+          </ul>
+          <a href="https://wa.me/6285785017347?text=Halo%2C%20saya%20tertarik%20paket%20Signature%20Launch." target="_blank" class="btn-price-wa featured-wa">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            Chat di WhatsApp
+          </a>
+        </div>
+
+        <div class="price-card reveal" style="animation-delay:.2s">
+          <p class="price-tier">Signature Authority</p>
+          <div class="price-amount">Rp<span>899</span>K</div>
+          <p class="price-for">Untuk brand yang ingin tampil lengkap dan dominan</p>
+          <ul class="price-features">
+            <li>Pengalaman landing penuh</li>
+            <li>Section before-after</li>
+            <li>Section FAQ</li>
+            <li>Showcase portfolio</li>
+            <li>Section promo</li>
+          </ul>
+          <a href="https://wa.me/6285785017347?text=Halo%2C%20saya%20tertarik%20paket%20Signature%20Authority." target="_blank" class="btn-price-wa">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            Chat di WhatsApp
+          </a>
+        </div>
+
+        <div class="price-card luxe reveal" style="animation-delay:.3s">
+          <p class="price-tier">Signature Luxe AI</p>
+          <div class="price-amount">Rp<span>1.150</span>K</div>
+          <p class="price-for">Semua fitur Authority + teknologi AI</p>
+          <ul class="price-features">
+            <li>Semua fitur Authority</li>
+            <li>AI Chat Assistant</li>
+            <li>Smart FAQ otomatis</li>
+            <li>Sistem tangkap prospek</li>
+          </ul>
+          <a href="https://wa.me/6285785017347?text=Halo%2C%20saya%20tertarik%20paket%20Signature%20Luxe%20AI." target="_blank" class="btn-price-wa">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            Chat di WhatsApp
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── URGENCY ── -->
+  <section class="urgency">
+    <div class="urgency-inner reveal">
+      <p class="urgency-eyebrow">Slot Terbatas</p>
+      <h2 class="urgency-headline">Kuota Project Bulan Ini Terbatas</h2>
+      <p class="urgency-body">Saya hanya menerima beberapa project setiap bulannya agar setiap brand mendapatkan perhatian penuh dan hasil yang terbaik.</p>
+      <a href="https://wa.me/6285785017347?text=Halo%20Zarobby%2C%20saya%20ingin%20secure%20slot%20konsultasi." target="_blank" class="btn-wa btn-wa-lg">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        Amankan Slot via WhatsApp
+      </a>
+    </div>
+  </section>
+
+  <!-- ── FINAL CTA ── -->
+  <section class="final-cta" id="contact">
+    <div class="final-cta-inner">
+      <p class="section-eyebrow center light">Mulai Sekarang</p>
+      <h2 class="final-cta-headline reveal">Siap Tampil Lebih<br/><em>Premium & Dipercaya?</em></h2>
+      <p class="final-cta-sub reveal">Mari buat website yang membuat calon client Anda langsung yakin.</p>
+      <a href="https://wa.me/6285785017347?text=Halo%20Zarobby%2C%20saya%20ingin%20diskusi%20website%20untuk%20brand%20saya." target="_blank" class="btn-wa btn-wa-lg reveal">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        Chat di WhatsApp
+      </a>
+    </div>
+  </section>
+
+  <!-- ── FOOTER ── -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <div class="footer-avatar-wrap">
+          <img src="https://i.ibb.co.com/NdD80NvD/Screenshot-2026-04-13-150209.png" alt="Zarobby" class="footer-avatar" loading="lazy" />
+        </div>
+        <div>
+          <p class="footer-name">Zarobby</p>
+          <p class="footer-tagline">Web Designer untuk Beauty Brand</p>
+        </div>
+      </div>
+      <div class="footer-links">
+        <a href="https://wa.me/6285785017347" target="_blank" class="footer-link">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          WhatsApp
+        </a>
+        <a href="mailto:zarobby15@gmail.com" class="footer-link">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 7 10 7 10-7"/></svg>
+          Email
+        </a>
+        <a href="https://instagram.com/zarobby_" target="_blank" class="footer-link">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r=".5" fill="currentColor"/></svg>
+          Instagram
+        </a>
+        <a href="https://github.com/zarobby15" target="_blank" class="footer-link">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
+          GitHub
+        </a>
+      </div>
+      <p class="footer-copy">© 2026 Zarobby. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- ── STICKY WA BUTTON ── -->
+  <a href="https://wa.me/6285785017347?text=Halo%20Zarobby%2C%20saya%20tertarik%20dengan%20layanan%20website%20Anda." target="_blank" class="sticky-wa" id="stickyWa" aria-label="Chat WhatsApp">
+    <svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+    <span class="wa-pulse"></span>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
